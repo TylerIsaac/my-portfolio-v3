@@ -5,9 +5,9 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const navLinks = [
     { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "My Skills", href: "#skills" },
+    { name: "My Recent Work", href: "#projects" },
+    { name: "Get In Touch", href: "#contact" },
 ];
 
 function Navbar() {
@@ -22,7 +22,7 @@ function Navbar() {
                         <img
                             src="https://i.ibb.co/wNV4ZPpL/tyler-dev-logo-update.png"
                             alt="Tyler Dev Logo"
-                            className="h-8 w-auto"
+                            className="h-8 w-auto transition duration-300 ease-in-out hover:brightness-75"
                         />
                     </a>
                 </div>

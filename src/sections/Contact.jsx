@@ -1,80 +1,66 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faEnvelope,
+  faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 import {
-    faLinkedin,
-    faGithub
+  faLinkedin,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
-    return (
-        <section
-            className="bg-gray-100 flex flex-col items-center justify-center px-4 py-30"
-            id="contact"
+  return (
+    <section
+  className="bg-gray-100 flex flex-col items-center justify-center px-4 py-30"
+  id="contact"
+>
+  <div className="text-center max-w-xl w-full">
+    <button
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      className="mx-auto mb-6 block transition duration-300 ease-in-out hover:brightness-75"
+    >
+      <img
+        src="https://i.ibb.co/wNV4ZPpL/tyler-dev-logo-update.png"
+        alt="Tyler Dev Logo"
+        className="w-12 h-12 cursor-pointer"
+      />
+    </button>
+    <h2 className="text-4xl font-bold mb-10 text-gray-800">
+      Get in <span className="text-green-600">Touch</span>
+    </h2>
+
+    <div className="flex flex-wrap justify-center gap-8">
+      {[
+        { label: "Email", icon: faEnvelope, href: "mailto:tiisaac@comcast.net", delay: 0 },
+        { label: "LinkedIn", icon: faLinkedin, href: "https://linkedin.com/in/your-link", delay: 100 },
+        { label: "Personal", icon: faGithub, href: "https://github.com/your-personal", delay: 200 },
+        { label: "Professional", icon: faGithub, href: "https://github.com/your-professional", delay: 300 },
+      ].map(({ label, icon, href, delay }) => (
+        <div
+          key={label}
+          className="flex flex-col items-center w-24 text-center"
+          data-aos="fade-up"
+          data-aos-delay={delay}
         >
-            <div className="text-center max-w-xl w-full">
-                <img
-                    src="https://i.ibb.co/wNV4ZPpL/tyler-dev-logo-update.png"
-                    alt="Tyler Dev Logo"
-                    className="mx-auto mb-6 w-12 h-12"
-                />
-                <h2 className="text-4xl font-bold mb-10 text-gray-800">Get in Touch</h2>
+          <a
+            href={href}
+            target={href.startsWith("http") ? "_blank" : undefined}
+            rel="noopener noreferrer"
+            className="w-14 h-14 flex items-center justify-center border border-green-600 bg-gray-100 text-green-600 rounded-full hover:bg-green-600 hover:text-white transition-all duration-300 ease-in-out"
+          >
+            <FontAwesomeIcon icon={icon} size="xl" />
+          </a>
+          <span className="mt-2 text-sm font-medium text-gray-700">{label}</span>
+        </div>
+      ))}
+    </div>
 
+    <p className="mt-10 text-gray-500 text-sm">
+      Site handcrafted and built by me © {new Date().getFullYear()} Tyler Isaac
+    </p>
+  </div>
+</section>
 
-                <div className="flex flex-wrap justify-center gap-12">
-                    {/* Email */}
-                    <div className="flex flex-col items-center">
-                        <a
-                            href="mailto:tiisaac@comcast.net"
-                            className="text-xs w-14 h-14 flex items-center justify-center border border-green-600 bg-gray-100 text-green-600 rounded-full hover:bg-green-600 hover:text-gray-100 transition-all duration-300 ease-in-out"            >
-                            <FontAwesomeIcon icon={faEnvelope} size="2x" />
-                        </a>
-                        <span className="mt-2 text-sm font-medium text-gray-700">Email</span>
-                    </div>
-
-                    {/* LinkedIn */}
-                    <div className="flex flex-col items-center">
-                        <a
-                            href="https://linkedin.com/in/your-link"
-                            target="_blank"
-                            className="w-14 h-14 flex items-center justify-center border border-green-600 bg-gray-100 text-green-600 rounded-full hover:bg-green-600 hover:text-gray-100 transition-all duration-300 ease-in-out">
-                            <FontAwesomeIcon icon={faLinkedin} size="lg" />
-                        </a>
-
-                        <span className="mt-2 text-sm font-medium text-gray-700">LinkedIn</span>
-                    </div>
-
-                    {/* GitHub Personal */}
-                    <div className="flex flex-col items-center">
-                        <a
-                            href="https://github.com/your-personal"
-                            target="_blank"
-                            className="text-xs w-14 h-14 flex items-center justify-center border border-green-600 bg-gray-100 text-green-600 rounded-full hover:bg-green-600 hover:text-gray-100 transition-all duration-300 ease-in-out"            >
-                            <FontAwesomeIcon icon={faGithub} size="2x" />
-                        </a>
-                        <span className="mt-2 text-sm font-medium text-gray-700">Personal</span>
-                    </div>
-
-                    {/* GitHub Professional */}
-                    <div className="flex flex-col items-center">
-                        <a
-                            href="https://github.com/your-professional"
-                            target="_blank"
-                            className="text-xs w-14 h-14 flex items-center justify-center border border-green-600 bg-gray-100 text-green-600 rounded-full hover:bg-green-600 hover:text-gray-100 transition-all duration-300 ease-in-out"            >
-                            <FontAwesomeIcon icon={faGithub} size="2x" />
-                        </a>
-                        <span className="mt-2 text-sm font-medium text-gray-700">Professional</span>
-                    </div>
-                </div>
-
-                <p className="mt-10 text-gray-500 text-sm">
-                Site handcrafted and built by me © {new Date().getFullYear()} Tyler Isaac
-                </p>
-
-            </div>
-        </section>
-    );
+  );
 };
 
 export default Contact;
