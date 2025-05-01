@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faServer, faToolbox } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faServer, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     return (
@@ -28,7 +28,7 @@ const Skills = () => {
                             data-aos="fade-up"
                         >
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-green-600 text-white rounded-full">
-                                <FontAwesomeIcon icon={faLaptopCode} className="text-2xl" />
+                                <FontAwesomeIcon icon={faCode} className="text-2xl" />
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-4" data-aos="fade-right">
                                 Frontend
@@ -78,7 +78,7 @@ const Skills = () => {
                             data-aos="fade-up"
                         >
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-green-600 text-white rounded-full">
-                                <FontAwesomeIcon icon={faToolbox} className="text-2xl" />
+                                <FontAwesomeIcon icon={faScrewdriverWrench} className="text-2xl" />
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-4" data-aos="fade-right">
                                 Tools & Platforms

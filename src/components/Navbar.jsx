@@ -58,7 +58,7 @@ function Navbar() {
 
             {/* Fullscreen mobile menu with blur & fade in */}
             <div
-                className={`lg:hidden fixed top-0 left-0 w-full h-full backdrop-blur-[2px] bg-black/15 z-40 transition-opacity duration-300 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+                className={`lg:hidden fixed top-0 left-0 w-full h-full backdrop-blur-[8px] bg-white/50 z-40 transition-opacity duration-300 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                     }`}
             >
                 <div className="flex flex-col items-center justify-center h-full space-y-6 text-xl">
