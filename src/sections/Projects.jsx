@@ -11,7 +11,7 @@ const Projects = () => {
                         <div>
                             <h3 className="text-2xl font-semibold text-green-600 mb-2">FocusFlow</h3>
                             <p className="text-gray-700 mb-3">
-                                is a personal productivity dashboard that includes a real-time clock, greeting, weather, quote, to-do list, and Pomodoro timer, all built to support daily focus and task management.
+                                FocusFlow is a personal productivity dashboard that includes a real-time clock, greeting, weather, quote, to-do list, and Pomodoro timer, all built to support daily focus and task management.
                             </p>
                             <p className="text-sm text-gray-500">Tech: React, TypeScript, Tailwind CSS, Font Awesome, OpenWeatherMap API, LocalStorage</p>
                         </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                                     target="_blank"
                                     className="border border-green-600 text-green-600 bg-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-600 hover:text-white transition-colors duration-200"
                                 >
-                                    Demo
+                                    Site
                                 </a>
                                 <a
                                     href="https://github.com/tyler-isaac/dev_cochran_careers"
