@@ -14,10 +14,13 @@ function About() {
           Hi, I’m <span className="text-green-600">Tyler!</span>
         </h2>
         <p className="text-lg text-gray-700 mb-4" data-aos="fade-up">
-          I'm a frontend web developer based in Pittsburgh, PA, focused on building fast, accessible, and user-friendly websites. Right now, I’m helping #1 Cochran improve their digital presence across more than 30 dealership websites.
+          I'm a front-end web developer based in Pittsburgh, PA, focused on building fast, accessible, and user-friendly websites.
         </p>
         <p className="text-lg text-gray-700 mb-4" data-aos="fade-up">
-          I work with HTML, CSS, JavaScript, and React, along with tools like Tailwind CSS, Vite, and Git. I enjoy designing responsive interfaces and creating user experiences that feel natural and intuitive.
+          At #1 Cochran Automotive, I help enhance the digital experience across more than 30 dealership websites. I specialize in HTML, CSS, JavaScript, and React, and work with tools like Tailwind CSS, Vite, and Git to streamline development.
+        </p>
+        <p className="text-lg text-gray-700 mb-4" data-aos="fade-up">
+          I enjoy designing responsive interfaces and crafting user experiences that feel seamless and intuitive.
         </p>
       </div>
     </div>

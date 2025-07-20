@@ -9,6 +9,35 @@ const Projects = () => {
                     {/* Project Card */}
                     <div className="bg-white rounded-2xl shadow-md p-6 text-left flex flex-col justify-between" data-aos="fade-up">
                         <div>
+                            <h3 className="text-2xl font-semibold text-green-600 mb-2">FocusFlow</h3>
+                            <p className="text-gray-700 mb-3">
+                                is a personal productivity dashboard that includes a real-time clock, greeting, weather, quote, to-do list, and Pomodoro timer, all built to support daily focus and task management.
+                            </p>
+                            <p className="text-sm text-gray-500">Tech: React, TypeScript, Tailwind CSS, Font Awesome, OpenWeatherMap API, LocalStorage</p>
+                        </div>
+                        <div className="mt-6 flex space-x-4">
+                            <div className="mt-6 flex space-x-4">
+                                <a
+                                    href="https://focusflow-chrome-extension.vercel.app/"
+                                    target="_blank"
+                                    className="border border-green-600 text-green-600 bg-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-600 hover:text-white transition-colors duration-200"
+                                >
+                                    Demo
+                                </a>
+                                <a
+                                    href="https://github.com/TylerIsaac/focusflow-chrome-extension"
+                                    target="_blank"
+                                    className="border border-black text-black bg-white px-4 py-2 rounded-md text-sm font-medium hover:bg-black hover:text-white transition-colors duration-200"
+                                >
+                                    GitHub
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div className="bg-white rounded-2xl shadow-md p-6 text-left flex flex-col justify-between" data-aos="fade-up">
+                        <div>
                             <h3 className="text-2xl font-semibold text-green-600 mb-2">Cochran Careers</h3>
                             <p className="text-gray-700 mb-3">
                                 Developed a careers website for #1 Cochran to enhance recruitment.
