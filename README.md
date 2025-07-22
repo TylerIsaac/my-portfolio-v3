@@ -1,12 +1,65 @@
-# React + Vite
+# Tyler Isaac – Front-End Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website. This project showcases my skills as a front-end web developer, including responsive design, interactive UI components, and smooth animations using modern tools like React, Tailwind CSS, and Font Awesome.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the deployed portfolio at: [tylerbecoding.com](https://tylerbecoding.com)
 
-## Expanding the ESLint configuration
+## 🛠 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [AOS (Animate on Scroll)](https://michalsnik.github.io/aos/)
+- [Vercel](https://vercel.com/) – for deployment
+
+## ✨ Features
+
+- Fully responsive one-page layout
+- Smooth scroll navigation
+- Scroll-triggered animations
+- Interactive contact links
+- Modular component structure
+- Clean, professional UI with Tailwind utility classes
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/              # Static images and icons
+├── components/          # React components (Navbar, Header, Skills, Projects, etc.)
+├── App.jsx              # Root component
+├── main.jsx             # App entry point
+├── index.css            # Tailwind + global styles
+```
+
+## 🚀 Getting Started
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/yourusername/portfolio-site.git
+cd portfolio-site
+npm install
+npm run dev
+```
+
+## 🧪 Dev & Deployment Workflow
+
+- Development happens in the `dev` branch.
+- All commits are pushed there until stable and ready for deployment.
+- Production is deployed from the `main` branch via Vercel.
+
+## 📬 Contact
+
+If you'd like to connect or have a project in mind:
+
+- 📧 [tiisaac@comcast.net](mailto:tiisaac@comcast.net)
+- 🔗 [LinkedIn](https://linkedin.com/in/tyler-isaac/)
+- 💻 [GitHub](https://github.com/TylerIsaac)
+
+---
+
+Built and designed by Tyler Isaac ©️ 2025

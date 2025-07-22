@@ -51,7 +51,7 @@ const Projects = () => {
                                     target="_blank"
                                     className="border border-green-600 text-green-600 bg-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-600 hover:text-white transition-colors duration-200"
                                 >
-                                    Demo
+                                    Site
                                 </a>
                                 <a
                                     href="https://github.com/TylerIsaac/LK-Strategics"
