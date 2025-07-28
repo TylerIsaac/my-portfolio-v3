@@ -31,9 +31,9 @@ const Contact = () => {
     <div className="flex flex-wrap justify-center gap-8">
       {[
         { label: "Email", icon: faEnvelope, href: "mailto:tiisaac@comcast.net", delay: 0 },
-        { label: "LinkedIn", icon: faLinkedin, href: "https://linkedin.com/in/your-link", delay: 100 },
-        { label: "Personal", icon: faGithub, href: "https://github.com/your-personal", delay: 200 },
-        { label: "Professional", icon: faGithub, href: "https://github.com/your-professional", delay: 300 },
+        { label: "LinkedIn", icon: faLinkedin, href: "www.linkedin.com/in/tyler-isaac", delay: 100 },
+        { label: "Personal", icon: faGithub, href: "https://github.com/TylerIsaac", delay: 200 },
+        { label: "Professional", icon: faGithub, href: "https://github.com/tyler-isaac/", delay: 300 },
       ].map(({ label, icon, href, delay }) => (
         <div
           key={label}
